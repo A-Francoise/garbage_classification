@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Environnements ---
+.env
+.venv/
+env/
+venv/
+*.env
+
+# --- Données volumineuses ---
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# --- Résultats / sorties ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
+
+# --- Modèles entraînés ---
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# --- Logs ---
+*.log
+
+# --- Dossiers spécifiques ---
+outputs/
+results/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
